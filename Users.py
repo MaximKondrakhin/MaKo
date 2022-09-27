@@ -14,7 +14,7 @@ class Users():
         self.login = "NONE"
         self.password = "NONE"
         self.group = "NONE"
-    def New_Users(self,n,s,l,p,g,a):
+    def New_Users(self,n,s,a,l,p,g):
         self.id = self.id + 1
         self.name = n
         self.surname = s
@@ -22,7 +22,7 @@ class Users():
         self.login = l
         self.password = p
         self.group = g
-    def Change_Users(self,i,n,s,l,p,g,a):
+    def Change_Users(self,i,n,s,a,l,p,g):
         if self.id==i:
             self.name = n
             self.surname = s
